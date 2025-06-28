@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className='mum'>
       <header className='text-center text-primary col-12'><h2>Welcome to the world of colors</h2></header>
-      <button className=' text-danger bg-black col-2 fs-5' onClick={handle}>Add color</button>
+      <button className=' text-danger bg-black col-4 fs-5' onClick={handle}>Add color</button>
       {colors.map((el,index) => {return(
         <button key={index} style={{backgroundColor:el}}>{el}</button>
       )})}
